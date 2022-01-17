@@ -1,4 +1,4 @@
-package Day8_2.serverside.*;
+package serverside;
 
 
 import java.io.DataInputStream;
@@ -8,7 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Ssocket {
+class Ssocket {
     public static void main(String[] args) throws IOException 
     {
         Scanner sc = new Scanner(System.in);
